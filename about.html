@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 16 16'><text x='0' y='14'>🔍</text></svg>" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Advanced Persistent Insights</title>
     
-    <title>Advanced Persistent Insights - About Us</title>
-    <meta name="description" content="Advanced Persistent Insights provides cutting-edge cybersecurity research, network analysis, and secure infrastructure solutions. Veteran-owned small business specializing in APT detection and digital forensics.">
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Veteran Owned Small Business (VOSB) providing expert cybersecurity services. Learn about our fellowship of cybersecurity engineers and analysts.">
+    <meta name="keywords" content="VOSB, veteran owned, cybersecurity engineers, APT experts, network analysis">
     
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.advancedpersistentinsights.com/">
-    <meta property="og:title" content="Advanced Persistent Insights - Cybersecurity Experts">
-    <meta property="og:description" content="Providing bleeding edge research science to detect covert activity and deploy secure networked solutions">
-    <meta property="og:image" content="https://www.advancedpersistentinsights.com/images/logo.png">
+    <meta property="og:url" content="https://advancedpersistentinsights.com/about">
+    <meta property="og:title" content="About Us | Advanced Persistent Insights">
+    <meta property="og:description" content="Veteran Owned Small Business (VOSB) providing expert cybersecurity services. Learn about our fellowship of cybersecurity engineers and analysts.">
+    <meta property="og:image" content="https://advancedpersistentinsights.com/og-image.jpg">
 
+    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.advancedpersistentinsights.com/">
-    <meta property="twitter:title" content="Advanced Persistent Insights - Cybersecurity Experts">
-    <meta property="twitter:description" content="Providing bleeding edge research science to detect covert activity and deploy secure networked solutions">
-    <meta property="twitter:image" content="https://www.advancedpersistentinsights.com/images/logo.png">
-
-    <meta name="keywords" content="cybersecurity, network analysis, APT detection, digital forensics, secure infrastructure, threat actor modeling, OSINT">
-    <meta name="author" content="Advanced Persistent Insights">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.advancedpersistentinsights.com/about">
+    <meta property="twitter:url" content="https://advancedpersistentinsights.com/about">
+    <meta property="twitter:title" content="About Us | Advanced Persistent Insights">
+    <meta property="twitter:description" content="Veteran Owned Small Business (VOSB) providing expert cybersecurity services. Learn about our fellowship of cybersecurity engineers and analysts.">
+    <meta property="twitter:image" content="https://advancedpersistentinsights.com/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-    <nav>
-        <a href="/" class="logo">
-            <img src="images/logo.png" alt="Advanced Persistent Insights Logo">
-            Advanced Persistent Insights
-        </a>
-        <a href="blog.html">Blog/Reports</a>
-        <a href="about.html">About Us</a>
-    </nav>
+    <header class="header">
+        <div class="logo-container">
+            <svg class="logo" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35 150 L75 150 L55 120 Z M38 130 L72 130 L55 100 Z M40 110 L70 110 L55 80 Z" 
+                      fill="#E41E26"/>
+            </svg>
+            <span>Advanced Persistent Insights</span>
+        </div>
+        <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/blog">Blog/Reports</a>
+            <a href="/about">About Us</a>
+        </nav>
+    </header>
 
     <main>
-        <div class="section">
-            <h1>About Us</h1>
-            <p>We are a fellowship of cybersecurity engineers and analysts firmly rooted in network analysis and APT domain expertise. As a Veteran Owned Small Business (VOSB), Advanced Persistent Insights takes pride in our service to others and are eager to help our customers navigate exceptionally complex problems.</p>
-        </div>
+        <section class="about-hero">
+            <div class="hero-content">
+                <h1>About Advanced Persistent Insights</h1>
+            </div>
+        </section>
 
-        <div class="section">
-            <h2>Contact Information</h2>
-            <p><strong>Headquarters:</strong><br>
-            Severna Park, MD 21146</p>
+        <section class="about-content">
+            <div class="content-wrapper">
+                <div class="mission-statement">
+                    <p>We are a fellowship of cybersecurity engineers and analysts firmly rooted in network analysis and APT domain expertise. As a Veteran Owned Small Business (VOSB), Advanced Persistent Insights takes pride in our service to others and are eager to help our customers navigate exceptionally complex problems.</p>
+                </div>
 
-            <p><strong>Email:</strong><br>
-            info@advancedpersistentinsights.com</p>
-        </div>
+                <div class="contact-section">
+                    <h2>Contact Information</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Headquarters</strong>
+                            <p>Severna Park, MD 21146</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Email</strong>
+                            <p>info@advancedpersistentinsights.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>© 2024 Advanced Persistent Insights. All rights reserved.</p>
+    <footer class="footer">
+        <div class="contact-info">
+            <p>Est. 2024</p>
+        </div>
     </footer>
 </body>
 </html>

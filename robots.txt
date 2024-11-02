@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://advancedpersistentinsights.com/sitemap.xml
+
+# Prevent indexing of potential sensitive directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /temp/
