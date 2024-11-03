@@ -1,14 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "*.html", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/blog", "dest": "/blog/index.html" },
-    { "src": "/about", "dest": "/about.html" },
-    { "src": "/assets/(.*)", "dest": "/assets/$1" }
-  ],
+  "builds": [{ "src": "*.html", "use": "@vercel/static" }],
   "headers": [
     {
       "source": "/(.*)",
